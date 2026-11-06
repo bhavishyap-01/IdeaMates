@@ -1,0 +1,1 @@
+export default function EmptyState({ title, description, action }) { return <div className="empty-state"><div aria-hidden="true" style={{ fontSize: 32, marginBottom: 8 }}>✳</div><h3>{title}</h3><p>{description}</p>{action}</div>; }
